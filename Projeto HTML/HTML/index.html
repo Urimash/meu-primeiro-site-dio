@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        margin: 20px;
+        background-color: rgb(71, 71, 71);
+        font-size: 25px;
+        color: aliceblue;
+    }
+    </style>
+</head>
+<body>
+        <div>
+        <h1 id="inicio">Index</h1>
+        <ul>
+            <li><a href="index.html">Sistema "Cliente-Servidor</a></li>
+            <li><a href="html.html">Principais tags do HTML</a></li>
+        </ul>
+        <h1><a id="inicio">Sistema "Cliente-Servidor</a></h1>
+        <hr/>
+            <ul>
+                <li><a href="#conceito">Conceito</a></li>
+                <li><a href="#funcionamento">Funcionamento</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        <h2 id="#conceito">Conceito</h2> 
+        <small><i><a href="#inicio">←Voltar para o topo</a></i></small>
+        <p>O sistema cliente-servidor é uma arquitetura de rede em que uma aplicação é dividida em dois componentes principais: o cliente e o servidor. O cliente é o componente da aplicação que solicita serviços ou recursos ao servidor, enquanto o servidor é o componente que fornece esses serviços ou recursos. </p>
+        <img src = https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cliente-Servidor.png/444px-Cliente-Servidor.png width="700"/>
+        <h2 id="funcionamento">Funcionamento</h2> 
+        <small><a href="#inicio"><i>←Voltar para o topo</i></a></small>
+        <p>O funcionamento do sistema cliente-servidor pode ser resumido em três etapas:</p>
+        <ol>
+            <li>O cliente envia uma solicitação ao servidor: O cliente inicia a comunicação enviando uma solicitação para o servidor. Essa solicitação pode ser uma requisição de um recurso específico ou uma solicitação de serviço. </li>
+            <img src="https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/images/requerer.png" width="500"/>
+            <p></p>
+            <li>O servidor processa a solicitação: Quando o servidor recebe a solicitação do cliente, ele processa a solicitação e determina como responder.  Isso pode envolver a busca de dados em um banco de dados, executando cálculos ou executando outras tarefas.</li>
+            <img src="https://www.researchgate.net/profile/Marcos-Seruffo-2/publication/337991059/figure/fig2/AS:886925120512001@1588470835998/Figura-2-Cenario-proposto-arquitetura-cliente-servidor.png" width="500"/>
+            <p></p>
+            <li>O servidor envia uma resposta ao cliente: Quando o servidor termina de processar a solicitação, ele envia uma resposta de volta para o cliente. Essa resposta pode incluir os dados solicitados, uma mensagem de erro ou uma confirmação de que a tarefa foi concluída com sucesso.</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASMAAACtCAMAAADMM+kDAAABNVBMVEX///9jY2NpaWnX19dubm58fHyxsbF0dHSpqanx8fGPj49oaGj09PTCwsJsbGz8/Pzg4OBevoXGpMYoqMx5wNmwe7CmaqahoaHX7eCIiIgAnsbJycnm5ubQ0NBeXl5mwIqYmJirc6u4uLj17/WygLJswo9WVlaBgYHu5O63ibfn2ee1hbV8yJrTudO9k71pvNfi8ujj8vfx+fTgzuBIsNDaxNrNr82p2ryb1LGv2ejW7PPDnsOMzqbf8PbC5M/w6PDF5O+Yz+Ki1OW238aIyN7M6dcAmcSjY6M7gK46iZdXrZdop4VWgnB0b3+GyrlAkZgdaptuXXlJXF+lwrSPzNRVk7FfsY9wrc5VcJ1jQXtwMHOOWZCwlr4MW5ZzwNBraoFFgaw8TFOpq8ttVIljJmiVtNGWmLXMZdcIAAAQWUlEQVR4nO1dC3viyJUtLCEhJCgwBhmQQBKmsTF+Y7r96DZ+dCe7O9kk+5gkM0l2dpPd//8T9paEeJZUeiD8TabO93UboZKu6qjq1L23SgghjmQQrKKAzCIqV5a+rODsDGqFooOQqkn60peGkp1BVCrqCio4hrhUK1wJLr+OSscpfaiYTUKLImCkaYaBjI6w/Sv10SyaeQt1FEVBWDAQUjCYLVrZ3RVHbBdySJcQ0GIIrkEFtXNa5BPoFkIm4aijCKIuY0kudir63iCzSzY6cDNKqKMVCkjW5Tb+YMmWIcrtrAwiEU7taNCOckjKW02UHzQ7SrOss4+coSiR/9tNpCpFvS2bjkUYz2XX9IWc+wc4kgS4wU3cwUYZ6YXMDKKO2610RxG1PaeUU/ImCIshRj+B1ESoYJqEo6ZjmJqjA0c4Q46UjoGEosuRmTcEQcucowHIX1MpAEdYhS6DgCO5UonBkSYPmntaewB9rS3roiZZ5Hrl7PoaKqhWroQ+QF/DsjVw8AdMOoFqZmawkivKTbjzYKYwsPJINtFeRelE72sImyYotUE0G5oRAiWFMUYTMhzYKm2DjJwwNmATPhnuGFPJcGBTTIGMnMSMABUzNFTRkBFjYOPg4ODg4Pg5o1RIACnFQClISSymCE0UJ4lBZ+F8NHPlBNhLHuS2O3tJDOZiuHir0Mpqkiqqqk9SJSeKe7FRFsVm0kvOi2I5vkVRVJM6lZKapIpwjDQ7gaCKA0eKi0JZzCe8YiyL5UJsg1JezCXt3nCxxfgGLXGeCBDUshXfrJYTBwmvGDiKkamZo5iGo71S/KNMNSVHSjqOEvSanXPU5hwxwTlig3PEBueIDc4RG5wjNjhHbHCO2OAcscE5YoNzxAbniA3OERucIzY4R2xwjtjgHLHBOWKDc8QG54gNzhEbnCM2OEdscI7Y4ByxwTlig3PEBueIDc4RG5wjNlJzlGL9EUq8/shIaDAdR6VSqVAWB+3SCigrHZXVEiVnT8zDn9h1rcBBsrjnrJ2OUnKtRGkgliXqpYVDg0OLYtlaOxuFbmGtiF4Wm+TSijmysnFtsaBKWcWn5zZWC4p7aif2czZmxzt0FZT1p0Jn02B5rxO/PXRU79AV5KzNgrK6WsYlRm0iISdSUB5IziqKe7Rye/EfMQMxoqKwZrBALybG76QF+qUX1wxKgzKtXM5EyKKTpK6BeryaT/C4ltChnmtvzSC1YuVOgkfacF5NXsWcRU5RauYTYiAleqLNsJIazFuJBjYsDZIabDpJDHJwcHBwcPwD4uru6r0vIRZ6N70dW9TeWq2LnxNJvYdGY5Igjk6Oq1at9rytX0S4vEy6Mw7wmW3bO21KF7Vaq3axle72sdodfTqk7jr8NOpWP27BRu/mwW7U6w9bOBUF+DP166vWxfSi1WqNX9LTdD3qd18Xm0t0vXb7o+vU5386O280Gg/D8wa9GT2l7BB43Lpf2lwI9ds3+H76Vmu1as/3tCMj43DU7XcXPeq1uuDrEvaM6E0sKo4n9UajPhnCp1+dzb7r3S6TdWyfpCJJG9dqtTkFb2PoYNPZxpX34f55DDQdTJOauXys9g8f+/Ptj0DLonf1Hw/71cekkoSH+0DQydmxuzX0iRnWG/bpxC80tOv2SRqdOgBtrtX8LSDsjVLo6oXQdHGXYNTAH7ukmy2azmF11B9V503nteoW+ZjgDrgSZJ/cPlH2Tez6if+5Xj86svfjn3+Oi7u32v2co2cQ6jG1Y13dEXGKreFfutVPoDfXC805fDyswr/59iXZ/ana/xLvxL1bV4LoLtHxeaNu+/0O1Y+PJrdpxPweHdTQXLXvWy93tdZBABGxxelwVB2td6NraEmHaF2nScnosnR8dgQStD+kNz5wlOzb28bxbBM/ofo+OqYWjYqD2vLGGGFwHgM9I0+c3iKJExGir5TvD6s0Nr703RbHBEgQEHQ6Cao08ZL2NXS+3LnqaXoawQpH6DPU/vNFq3YXWN4TJ6aGB6sMnSPvAMa1ajcPIMcnZzQJ8nBz1Dh/chvPErbMkYdpkCx5iCBOIc0igCPohgENbwZPgs5vQ4ao4UnjaLj5dSYcIQSyFB6tTQ9AnMYB4hQqL4Ec0QXMw0yCbsJaLwhR/Za2IyOOXFl6C+9PQeLEGKZCOKK3PzycAEFHkwCN9ktNbHtCL5EVR9CjQmXJw+dnz3NavjaWuxPKEbqG6G4pbkHYlaDTM9bAdFtvPAT1wuw4goYybo2nrOOvXlbECRrCY/j4FM7RyngYQYI8DE8bJ8EsZsmRK0tjesy7DHx34YrT50h+DosjV5YgPHk6OwUJegiVIA9P542jm5D92XKE8DPIUgTnGhMH89uv/+mfX5lF2RxBiPIv3/3GZkqQhx4I0VlouYw58mTpJcqJ8L/+9ne//sb2nNgcEY3+/b999+9RrKIzO1iIZsicI1eW5smAYHwl8bvrYDLCunCO3EiVSNDlKNRbmoH4jMw4YwccMX1KwOVciGbi9BIoYyEcuRo994I8WQrDMd1nXMdOOELoJTjURRseEQ53MAM4ejo7WfeCXvvdkCCutw/Ba/hle9gRR0g7gFA3YN9rt/pxvSr3zzXXwdwsTeXIcxM3vCBCftAoAEK0Hy11tiuOgkPdr0Ee0We6OG1whG/27UAvCLylEU2Wbupu8BoJu+MIZGm8KUuXoR6RF/2OV2ha5QgkyG7YDzfBOc6vFFmC4PU0ghDNsEuOXFlaCXWvP3W7DI/IF6e5hi9xBBIEXlBQsmyOV4hulltqYPAagN1ytBbqRkyM4XuSwRzPxMnnaDg5JRodJUO4MiZA8NoICF4DsGOOlkPd4EwGBZ44EQeTcISHRILCkmVrWHTpW7bPuI6dc+SHukGp2GDMUnP/8X3pwZWgeDV1fVRG8BqAd+DIDXX/8/v+a/wJHzz9wx//9MMPP/45SiC2fuxr9/vf2PWw4DUA78IRev3tX3731/jVPJ6ARv/4Xz+1auO3+HO/ePL7//4u5hyTi/fgyM2AgE8ZKdT14UvQMejR5xjTK3OAEO1XYs0x+dg9RyQ1T+5mtFDXgzen6rmJ3rgWd1JzOAte2Tm8Teyao+U5IQh1L9gZOM9NrM81eu4faVM3+o1CE8miDTcvICJ2zNFa4PHCnBg4JpGqvRypLvvZbmouMPqdl4Lg9Wyx6TfkyNgpR5upWOJTBsoSHpJ1L+v5+vV4zZ9eCbR6tuEzxvLMdsoRfU6I+JRTSullCVoBJe535w1qF1Na0EaC101PKurUt4vdcRSoAxDqXqx1Fi9SPae6ifT8keam5jY0HITohBq8zhbtRMKuOPoatpTqDqKMRRvwJGh/GBDKB+YhIfptrUS/4Vm06I7+bjgKz4B4suRm4DwJOpqEJC5C89kzcfKa5VkjPHiNKku74CgsG+jDlSUvX8+IVFnzIv7ClNsjdvD6GkmWdsDRevqGjt7//O3vP0SZU40wvwYO5k9/+vvf/pftOV1HkaXMOQoVIh8kX2/bf/7pW8jEgI8oc5C9h8aP/9die04okixlzFFQOnkZSxL0zPQpo3CEJyBEyF9cyAzraMncFWTKETsV27tZXv0LveSAudiEydHyEhB/5XP4kl5QgzBZypIjliJqNDeRudiEwdFGFs1f+RzWi8NHlew4Yoyswat/GWvgQjkCn5GSRZtNrzyHBNBh3klWHIVLobv0LtgLCpWlEI601eB1Be70Si0kNRc8uGTDUdiQ6rmJ4fn6q5AMXDBHt4yZV9ZjGUFOSiYcBUeM3urfCF5QsCwFcXRzGmEJSLg4BazE3DJH5PIDF6OFPoCwgWnAGjg6R3QhomEmTvRnxvxrXzGxXY4eHwMzWN7q37BAbAMvLdpiExpHvRAhosCb+6U/luElc6EiC6TkaEo4mps6rH6hZkC81b8nzMWt63AXm8DZrhbuzSUGjvBCW3s99/mFxn7ch5ru3wLmDdxk7pf5jcDHhKM4t3YdFy9vtem8Jb32+92lVOyxm5fwVv/Sn4FiwltsctWa+l8cjoCjRVe+sXv+8wsJTv6ytPL5btGorh+7/YW7VB8e7ad67mj1+bVRv7/0yMb+r5781b8pHgsnsnQ1Hvubl9V+v1+dt6PTk6eTRj35XV5Mr9x/O1h8/bHfH/mf63bK59fIs8W1uWZ8HHW780b6BMNX2DNQkfFSa9Vacxtfuv3uXO969pEdawkIBTNxgjbljxCH1W53NL/ZvXrdPk9n4qK2sljm65yQBzj3aSyNDsLVuNZaBHFfqosh4daup3qM08cUxKlWu/A3r7+uLMWpp6QI4YCwAZ/a9oS+Kybe4C6PlwLdJWf45sTemhXo0wENvretHyrYBGjp6VZ+U2AaEo/2brbRUtFVjf1wSzZI94TlbpHu+XoODg4ODg6OXxhwfPzCrJpyEsT/ueNVOImspv3tWD2RVRPJ679kHQXJfxDdg5ZLZjXdj84ZyazKSBQNJS60ZuIf1vc5krX4VuWUHFVyzfhWDVFEYjmB4S1wlOCoLXAU/yCt/G4ciQmOStvXOEdspOYIkz/uSz/IfxrZIrqM3S28vIW2yNHqmRX6ljajZmscLexoG3bmFCier7HMkVSE/1QTztSBDzp5r0YHiBBIZYoSlO3AgaXZ+yK2xpFFnIgPcIFtcmbyw/CKa4e8uSTfhkv/AB8Klld4axzlS8SONqu0KKxX2lSRV2lE4UgkHOXwrDghQpBnxbXcDjgi1+7aIZXJmKOcz5FMOMohr9KY1Mz0GwbiHHGONsA5YoNzxMZ2OPLGNbws8avj2sw9zoijgT+uOdmOa/LquLY8mOOwca0CV4QcuD6N7DPJK5ok2KOQWLtdIe96AeqM2QuZtsaRa6fgn9m14/hb5M1WmHAozN7fszWO3DOTai4q7fh2ViqNuJ8dBZwjNjhHbHgcJciB/oJyI5hwJBbjQ07fjhJYTd+O5CRWRVTIJUGSd9Mto5jIajGdUSwnsgpDa0VIgLRzFDiJ0fexmq7H/OIgROqc237zn9mMYLSZ4B2QoXAi1XWzARU6EbpmJ8lwFAYrklVry1blSFaljeOi9dVtv1UpmtVtL1jU3sUqBwcHBwcHx88USvs94hPjXaxWzESrqCo5KW+tf5m5M9UuS+Lcq8VrfzODJEu5tm8nhjWnCTEUastiCeV1ud1EjqXl5SL8UTO805YODjdyZFFAol6UdGQ5hizrSLdUJTurAwcpFbL+z9DyVsFy0MA0RdFBTUsOZUzJq80K6lQqH5DoYEXFTUGXsCw4eS3D+1oRy0VD6ShtEaltXNlDstIsKTlDt7J8o6ypipZWkTWniHMChvbQgYoaHdwssKqqSCruSJKDRGg4AzMHtEqO4egZXizAsAZGznFKiKQay2YeiQXJUaxSxlabuiA7TlsTIYYT2xYuS46DB0L4UZJsODI0IdNCpHO1VR1JzYqlSJlyVCwaehGaUKmAyAykpJag+1WK2Np2KmYFcsEoFhRVcEqaCi2nqApoIAkWyrNSMU5TV5BS0I3ZfCQov2OZ82nAbIALpH0bekFB7kynpCEs6QJqM+5oOih6E6wRLcHkXlTIZDSpeCndmmEODjr+H8r6XpEW2rjQAAAAAElFTkSuQmCC" width="500"/>
+        </ol>
+        <h2 id="conclusao">Conclusões</h2> 
+        <small><i><a href="#inicio">←Voltar para o topo</i></a></small>
+        <p>O sistema cliente-servidor é amplamente utilizado em redes de computadores, especialmente em aplicações de larga escala e em ambientes empresariais.</p>
+        <p>É uma arquitetura eficiente que permite que vários clientes acessem recursos ou serviços de um servidor centralizado, permitindo maior escalabilidade e facilidade de gerenciamento.</p>
+    </div>
